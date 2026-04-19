@@ -1,6 +1,6 @@
 {
   "name": "@fennecorelabs/design-tokens",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Shared design tokens, OKLCH theme system, and Design D (Organic Warm) aesthetic for the Adaptive AI ecosystem",
   "license": "MIT",
   "type": "module",
