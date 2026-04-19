@@ -93,6 +93,21 @@
   --sidebar-border: oklch(0.28 0.04 300);
   --sidebar-ring: var(--brand-500);
   --sidebar-muted: oklch(0.55 0.02 300);
+
+  /* Neutral app-shell helper layer for ecosystem consumers. */
+  --surface-elevated: color-mix(in oklch, var(--background) 92%, var(--foreground) 8%);
+  --overlay-scrim: color-mix(in oklch, var(--sidebar) 48%, transparent);
+  --contrast-foreground: var(--background);
+  --sidebar-surface-raised: color-mix(in oklch, var(--sidebar-accent) 78%, var(--sidebar-primary-foreground) 22%);
+  --sidebar-foreground-muted: color-mix(in oklch, var(--sidebar-foreground) 84%, var(--sidebar-primary-foreground) 16%);
+  --sidebar-foreground-subtle: color-mix(in oklch, var(--sidebar-foreground) 80%, var(--sidebar-primary-foreground) 20%);
+  --shadow-card: 0 1px 2px 0 color-mix(in oklch, var(--sidebar) 10%, transparent), 0 1px 3px 0 color-mix(in oklch, var(--sidebar) 7%, transparent);
+  --shadow-card-hover: 0 4px 12px -2px color-mix(in oklch, var(--sidebar) 18%, transparent), 0 2px 4px -1px color-mix(in oklch, var(--sidebar) 10%, transparent);
+  --shadow-card-focus: 0 0 0 2px color-mix(in oklch, var(--primary) 32%, transparent);
+  --shadow-soft: 0 1px 3px color-mix(in oklch, var(--sidebar) 12%, transparent);
+  --shadow-soft-hover: 0 3px 8px color-mix(in oklch, var(--sidebar) 18%, transparent);
+  --shadow-popover: 0 18px 44px -20px color-mix(in oklch, var(--sidebar) 36%, transparent), 0 8px 18px -12px color-mix(in oklch, var(--sidebar) 18%, transparent);
+  --shadow-dialog: 0 28px 80px -32px color-mix(in oklch, var(--sidebar) 42%, transparent), 0 12px 24px -14px color-mix(in oklch, var(--sidebar) 22%, transparent);
 }
 
 .dark {
@@ -130,4 +145,14 @@
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: var(--brand-500);
   --sidebar-muted: oklch(0.70 0.02 300);
+
+  --surface-elevated: color-mix(in oklch, var(--background) 88%, var(--foreground) 12%);
+  --contrast-foreground: var(--foreground);
+  --shadow-card: 0 1px 2px 0 color-mix(in oklch, var(--sidebar) 18%, transparent), 0 1px 3px 0 color-mix(in oklch, var(--sidebar) 12%, transparent);
+  --shadow-card-hover: 0 4px 12px -2px color-mix(in oklch, var(--sidebar) 28%, transparent), 0 2px 4px -1px color-mix(in oklch, var(--sidebar) 18%, transparent);
+  --shadow-card-focus: 0 0 0 2px color-mix(in oklch, var(--primary) 36%, transparent);
+  --shadow-soft: 0 1px 3px color-mix(in oklch, var(--sidebar) 18%, transparent);
+  --shadow-soft-hover: 0 3px 8px color-mix(in oklch, var(--sidebar) 28%, transparent);
+  --shadow-popover: 0 22px 48px -20px color-mix(in oklch, var(--sidebar) 44%, transparent), 0 10px 20px -12px color-mix(in oklch, var(--sidebar) 22%, transparent);
+  --shadow-dialog: 0 32px 84px -32px color-mix(in oklch, var(--sidebar) 52%, transparent), 0 14px 28px -16px color-mix(in oklch, var(--sidebar) 28%, transparent);
 }
