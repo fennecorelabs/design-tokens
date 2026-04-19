@@ -57,8 +57,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/fennecorelabs/design-tokens.git"
-  },
-  "dependencies": {
-    "@fennecorelabs/design-tokens": "^0.1.1"
   }
 }
