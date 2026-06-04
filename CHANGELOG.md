@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-06-04
+### Added
+- Cold-purple app-shell status tokens for info, success, warning, attention, and danger states, with subtle, muted, border, and foreground variants exposed through `css/app-shell.css` and the Tailwind preset.
+- Lifecycle status aliases for draft, pending, active, open, claimed, confirmed, completed, cancelled, and expired states, mapped to the generic status families for migration-safe app updates.
+- App-shell category color tokens for aqua, mint, amber, coral, berry, and indigo labels, with subtle, muted, border, and foreground variants for non-status operational UI.
+- Expanded surface/depth tokens for elevated, surface-2, surface-3, hover, active, selected, floating, tinted-border, strong border, and tertiary text patterns.
+- Semantic status badge, surface, text, and meter recipes with guidance for category roles, action/readiness mappings, chart separation, and no-gradient operational dashboards.
+
 ## [0.3.0] - 2026-04-19
 ### Added
 - Neutral app-shell helper tokens in `css/app-shell.css` for elevated surfaces, overlay scrims, contrast foreground, sidebar helper aliases, and shared shadow presets for card, soft, popover, dialog, and focus states
