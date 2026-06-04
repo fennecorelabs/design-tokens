@@ -26,6 +26,120 @@
   --color-chart-3: var(--chart-3);
   --color-chart-2: var(--chart-2);
   --color-chart-1: var(--chart-1);
+  --color-category-amber: var(--category-amber);
+  --color-category-amber-border: var(--category-amber-border);
+  --color-category-amber-foreground: var(--category-amber-foreground);
+  --color-category-amber-muted: var(--category-amber-muted);
+  --color-category-amber-subtle: var(--category-amber-subtle);
+  --color-category-aqua: var(--category-aqua);
+  --color-category-aqua-border: var(--category-aqua-border);
+  --color-category-aqua-foreground: var(--category-aqua-foreground);
+  --color-category-aqua-muted: var(--category-aqua-muted);
+  --color-category-aqua-subtle: var(--category-aqua-subtle);
+  --color-category-berry: var(--category-berry);
+  --color-category-berry-border: var(--category-berry-border);
+  --color-category-berry-foreground: var(--category-berry-foreground);
+  --color-category-berry-muted: var(--category-berry-muted);
+  --color-category-berry-subtle: var(--category-berry-subtle);
+  --color-category-coral: var(--category-coral);
+  --color-category-coral-border: var(--category-coral-border);
+  --color-category-coral-foreground: var(--category-coral-foreground);
+  --color-category-coral-muted: var(--category-coral-muted);
+  --color-category-coral-subtle: var(--category-coral-subtle);
+  --color-category-indigo: var(--category-indigo);
+  --color-category-indigo-border: var(--category-indigo-border);
+  --color-category-indigo-foreground: var(--category-indigo-foreground);
+  --color-category-indigo-muted: var(--category-indigo-muted);
+  --color-category-indigo-subtle: var(--category-indigo-subtle);
+  --color-category-mint: var(--category-mint);
+  --color-category-mint-border: var(--category-mint-border);
+  --color-category-mint-foreground: var(--category-mint-foreground);
+  --color-category-mint-muted: var(--category-mint-muted);
+  --color-category-mint-subtle: var(--category-mint-subtle);
+  --color-status-attention: var(--status-attention);
+  --color-status-attention-border: var(--status-attention-border);
+  --color-status-attention-foreground: var(--status-attention-foreground);
+  --color-status-attention-muted: var(--status-attention-muted);
+  --color-status-attention-subtle: var(--status-attention-subtle);
+  --color-status-danger: var(--status-danger);
+  --color-status-danger-border: var(--status-danger-border);
+  --color-status-danger-foreground: var(--status-danger-foreground);
+  --color-status-danger-muted: var(--status-danger-muted);
+  --color-status-danger-subtle: var(--status-danger-subtle);
+  --color-status-info: var(--status-info);
+  --color-status-info-border: var(--status-info-border);
+  --color-status-info-foreground: var(--status-info-foreground);
+  --color-status-info-muted: var(--status-info-muted);
+  --color-status-info-subtle: var(--status-info-subtle);
+  --color-status-success: var(--status-success);
+  --color-status-success-border: var(--status-success-border);
+  --color-status-success-foreground: var(--status-success-foreground);
+  --color-status-success-muted: var(--status-success-muted);
+  --color-status-success-subtle: var(--status-success-subtle);
+  --color-status-warning: var(--status-warning);
+  --color-status-warning-border: var(--status-warning-border);
+  --color-status-warning-foreground: var(--status-warning-foreground);
+  --color-status-warning-muted: var(--status-warning-muted);
+  --color-status-warning-subtle: var(--status-warning-subtle);
+  --color-status-active: var(--status-active);
+  --color-status-active-border: var(--status-active-border);
+  --color-status-active-foreground: var(--status-active-foreground);
+  --color-status-active-muted: var(--status-active-muted);
+  --color-status-active-subtle: var(--status-active-subtle);
+  --color-status-cancelled: var(--status-cancelled);
+  --color-status-cancelled-border: var(--status-cancelled-border);
+  --color-status-cancelled-foreground: var(--status-cancelled-foreground);
+  --color-status-cancelled-muted: var(--status-cancelled-muted);
+  --color-status-cancelled-subtle: var(--status-cancelled-subtle);
+  --color-status-claimed: var(--status-claimed);
+  --color-status-claimed-border: var(--status-claimed-border);
+  --color-status-claimed-foreground: var(--status-claimed-foreground);
+  --color-status-claimed-muted: var(--status-claimed-muted);
+  --color-status-claimed-subtle: var(--status-claimed-subtle);
+  --color-status-completed: var(--status-completed);
+  --color-status-completed-border: var(--status-completed-border);
+  --color-status-completed-foreground: var(--status-completed-foreground);
+  --color-status-completed-muted: var(--status-completed-muted);
+  --color-status-completed-subtle: var(--status-completed-subtle);
+  --color-status-confirmed: var(--status-confirmed);
+  --color-status-confirmed-border: var(--status-confirmed-border);
+  --color-status-confirmed-foreground: var(--status-confirmed-foreground);
+  --color-status-confirmed-muted: var(--status-confirmed-muted);
+  --color-status-confirmed-subtle: var(--status-confirmed-subtle);
+  --color-status-draft: var(--status-draft);
+  --color-status-draft-border: var(--status-draft-border);
+  --color-status-draft-foreground: var(--status-draft-foreground);
+  --color-status-draft-muted: var(--status-draft-muted);
+  --color-status-draft-subtle: var(--status-draft-subtle);
+  --color-status-expired: var(--status-expired);
+  --color-status-expired-border: var(--status-expired-border);
+  --color-status-expired-foreground: var(--status-expired-foreground);
+  --color-status-expired-muted: var(--status-expired-muted);
+  --color-status-expired-subtle: var(--status-expired-subtle);
+  --color-status-open: var(--status-open);
+  --color-status-open-border: var(--status-open-border);
+  --color-status-open-foreground: var(--status-open-foreground);
+  --color-status-open-muted: var(--status-open-muted);
+  --color-status-open-subtle: var(--status-open-subtle);
+  --color-status-pending: var(--status-pending);
+  --color-status-pending-border: var(--status-pending-border);
+  --color-status-pending-foreground: var(--status-pending-foreground);
+  --color-status-pending-muted: var(--status-pending-muted);
+  --color-status-pending-subtle: var(--status-pending-subtle);
+  --color-border-strong: var(--border-strong);
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-raised-border: var(--surface-raised-border);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-surface-active: var(--surface-active);
+  --color-surface-floating: var(--surface-floating);
+  --color-surface-hover: var(--surface-hover);
+  --color-surface-selected: var(--surface-selected);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-surface-tinted: var(--surface-tinted);
+  --color-surface-tinted-border: var(--surface-tinted-border);
+  --color-text-tertiary: var(--text-tertiary);
   --color-ring: var(--ring);
   --color-input: var(--input);
   --color-border: var(--border);
@@ -83,6 +197,137 @@
   --chart-4: oklch(0.70 0.16 80);
   --chart-5: oklch(0.60 0.18 25);
 
+  /*
+   * App-shell status semantics.
+   *
+   * These keep product UI states tied to the cold-purple system without
+   * requiring each app to invent local green, amber, orange, or danger scales.
+   * Info follows the active cold-purple primary color. Success, warning,
+   * attention, and danger stay semantically stable instead of depending on
+   * chart tokens, which some apps remap for data visualization palettes.
+   * Subtle, muted, border, and foreground values are derived against the
+   * active light/dark shell tokens.
+   */
+  --status-info: var(--primary);
+  --status-success: oklch(0.60 0.14 170);
+  --status-warning: oklch(0.70 0.16 80);
+  --status-attention: oklch(0.60 0.18 25);
+  --status-danger: var(--destructive);
+
+  --status-info-subtle: color-mix(in oklch, var(--status-info) 10%, var(--background) 90%);
+  --status-info-muted: color-mix(in oklch, var(--status-info) 18%, var(--background) 82%);
+  --status-info-border: color-mix(in oklch, var(--status-info) 28%, var(--border) 72%);
+  --status-info-foreground: color-mix(in oklch, var(--status-info) 72%, var(--foreground) 28%);
+  --status-success-subtle: color-mix(in oklch, var(--status-success) 10%, var(--background) 90%);
+  --status-success-muted: color-mix(in oklch, var(--status-success) 18%, var(--background) 82%);
+  --status-success-border: color-mix(in oklch, var(--status-success) 28%, var(--border) 72%);
+  --status-success-foreground: color-mix(in oklch, var(--status-success) 72%, var(--foreground) 28%);
+  --status-warning-subtle: color-mix(in oklch, var(--status-warning) 10%, var(--background) 90%);
+  --status-warning-muted: color-mix(in oklch, var(--status-warning) 18%, var(--background) 82%);
+  --status-warning-border: color-mix(in oklch, var(--status-warning) 28%, var(--border) 72%);
+  --status-warning-foreground: color-mix(in oklch, var(--status-warning) 72%, var(--foreground) 28%);
+  --status-attention-subtle: color-mix(in oklch, var(--status-attention) 10%, var(--background) 90%);
+  --status-attention-muted: color-mix(in oklch, var(--status-attention) 18%, var(--background) 82%);
+  --status-attention-border: color-mix(in oklch, var(--status-attention) 28%, var(--border) 72%);
+  --status-attention-foreground: color-mix(in oklch, var(--status-attention) 72%, var(--foreground) 28%);
+  --status-danger-subtle: color-mix(in oklch, var(--status-danger) 10%, var(--background) 90%);
+  --status-danger-muted: color-mix(in oklch, var(--status-danger) 18%, var(--background) 82%);
+  --status-danger-border: color-mix(in oklch, var(--status-danger) 28%, var(--border) 72%);
+  --status-danger-foreground: color-mix(in oklch, var(--status-danger) 72%, var(--foreground) 28%);
+
+  /*
+   * Lifecycle compatibility aliases for app-local workflow names.
+   *
+   * These are migration handles for existing product vocabulary. Keep new
+   * workflow states mapped to the generic status families above unless a state
+   * needs a genuinely distinct semantic meaning.
+   */
+  --status-draft: var(--muted-foreground);
+  --status-draft-subtle: var(--muted);
+  --status-draft-muted: var(--surface-raised);
+  --status-draft-border: var(--border);
+  --status-draft-foreground: var(--muted-foreground);
+  --status-pending: var(--status-warning);
+  --status-pending-subtle: var(--status-warning-subtle);
+  --status-pending-muted: var(--status-warning-muted);
+  --status-pending-border: var(--status-warning-border);
+  --status-pending-foreground: var(--status-warning-foreground);
+  --status-active: var(--status-info);
+  --status-active-subtle: var(--status-info-subtle);
+  --status-active-muted: var(--status-info-muted);
+  --status-active-border: var(--status-info-border);
+  --status-active-foreground: var(--status-info-foreground);
+  --status-open: var(--status-info);
+  --status-open-subtle: var(--status-info-subtle);
+  --status-open-muted: var(--status-info-muted);
+  --status-open-border: var(--status-info-border);
+  --status-open-foreground: var(--status-info-foreground);
+  --status-claimed: var(--status-attention);
+  --status-claimed-subtle: var(--status-attention-subtle);
+  --status-claimed-muted: var(--status-attention-muted);
+  --status-claimed-border: var(--status-attention-border);
+  --status-claimed-foreground: var(--status-attention-foreground);
+  --status-confirmed: var(--status-success);
+  --status-confirmed-subtle: var(--status-success-subtle);
+  --status-confirmed-muted: var(--status-success-muted);
+  --status-confirmed-border: var(--status-success-border);
+  --status-confirmed-foreground: var(--status-success-foreground);
+  --status-completed: var(--status-success);
+  --status-completed-subtle: var(--status-success-subtle);
+  --status-completed-muted: var(--status-success-muted);
+  --status-completed-border: var(--status-success-border);
+  --status-completed-foreground: var(--status-success-foreground);
+  --status-cancelled: var(--status-danger);
+  --status-cancelled-subtle: var(--status-danger-subtle);
+  --status-cancelled-muted: var(--status-danger-muted);
+  --status-cancelled-border: var(--status-danger-border);
+  --status-cancelled-foreground: var(--status-danger-foreground);
+  --status-expired: var(--status-danger);
+  --status-expired-subtle: var(--status-danger-subtle);
+  --status-expired-muted: var(--status-danger-muted);
+  --status-expired-border: var(--status-danger-border);
+  --status-expired-foreground: var(--status-danger-foreground);
+
+  /*
+   * Non-status category colors for dense operational UI.
+   *
+   * Use these for modules, filters, document types, workflows, badges, chart
+   * labels, and other information scent where success/warning/error would be
+   * misleading. They intentionally span multiple hues so product screens do
+   * not have to keep deriving everything from purple and neutral grays.
+   */
+  --category-aqua: oklch(0.62 0.13 205);
+  --category-mint: oklch(0.64 0.12 155);
+  --category-amber: oklch(0.72 0.15 78);
+  --category-coral: oklch(0.66 0.16 35);
+  --category-berry: oklch(0.58 0.18 345);
+  --category-indigo: oklch(0.56 0.16 270);
+
+  --category-aqua-subtle: color-mix(in oklch, var(--category-aqua) 10%, var(--background) 90%);
+  --category-aqua-muted: color-mix(in oklch, var(--category-aqua) 18%, var(--background) 82%);
+  --category-aqua-border: color-mix(in oklch, var(--category-aqua) 30%, var(--border) 70%);
+  --category-aqua-foreground: color-mix(in oklch, var(--category-aqua) 72%, var(--foreground) 28%);
+  --category-mint-subtle: color-mix(in oklch, var(--category-mint) 10%, var(--background) 90%);
+  --category-mint-muted: color-mix(in oklch, var(--category-mint) 18%, var(--background) 82%);
+  --category-mint-border: color-mix(in oklch, var(--category-mint) 30%, var(--border) 70%);
+  --category-mint-foreground: color-mix(in oklch, var(--category-mint) 72%, var(--foreground) 28%);
+  --category-amber-subtle: color-mix(in oklch, var(--category-amber) 10%, var(--background) 90%);
+  --category-amber-muted: color-mix(in oklch, var(--category-amber) 18%, var(--background) 82%);
+  --category-amber-border: color-mix(in oklch, var(--category-amber) 30%, var(--border) 70%);
+  --category-amber-foreground: color-mix(in oklch, var(--category-amber) 72%, var(--foreground) 28%);
+  --category-coral-subtle: color-mix(in oklch, var(--category-coral) 10%, var(--background) 90%);
+  --category-coral-muted: color-mix(in oklch, var(--category-coral) 18%, var(--background) 82%);
+  --category-coral-border: color-mix(in oklch, var(--category-coral) 30%, var(--border) 70%);
+  --category-coral-foreground: color-mix(in oklch, var(--category-coral) 72%, var(--foreground) 28%);
+  --category-berry-subtle: color-mix(in oklch, var(--category-berry) 10%, var(--background) 90%);
+  --category-berry-muted: color-mix(in oklch, var(--category-berry) 18%, var(--background) 82%);
+  --category-berry-border: color-mix(in oklch, var(--category-berry) 30%, var(--border) 70%);
+  --category-berry-foreground: color-mix(in oklch, var(--category-berry) 72%, var(--foreground) 28%);
+  --category-indigo-subtle: color-mix(in oklch, var(--category-indigo) 10%, var(--background) 90%);
+  --category-indigo-muted: color-mix(in oklch, var(--category-indigo) 18%, var(--background) 82%);
+  --category-indigo-border: color-mix(in oklch, var(--category-indigo) 30%, var(--border) 70%);
+  --category-indigo-foreground: color-mix(in oklch, var(--category-indigo) 72%, var(--foreground) 28%);
+
   /* Sidebar contract consumed by ecosystem-ui. */
   --sidebar: oklch(0.18 0.03 300);
   --sidebar-foreground: oklch(0.85 0.01 300);
@@ -98,6 +343,19 @@
   --surface-elevated: color-mix(in oklch, var(--background) 92%, var(--foreground) 8%);
   --overlay-scrim: color-mix(in oklch, var(--sidebar) 48%, transparent);
   --contrast-foreground: var(--background);
+  --text-tertiary: color-mix(in oklch, var(--muted-foreground) 74%, var(--background) 26%);
+  --border-strong: color-mix(in oklch, var(--border) 70%, var(--foreground) 30%);
+  --surface-raised: color-mix(in oklch, var(--background) 96%, var(--foreground) 4%);
+  --surface-raised-border: color-mix(in oklch, var(--border) 82%, var(--foreground) 18%);
+  --surface-sunken: color-mix(in oklch, var(--background) 88%, var(--foreground) 12%);
+  --surface-tinted: color-mix(in oklch, var(--primary) 8%, var(--background) 92%);
+  --surface-tinted-border: color-mix(in oklch, var(--primary) 24%, var(--border) 76%);
+  --surface-2: var(--surface-raised);
+  --surface-3: var(--surface-elevated);
+  --surface-hover: color-mix(in oklch, var(--foreground) 5%, var(--background) 95%);
+  --surface-active: var(--surface-tinted);
+  --surface-selected: color-mix(in oklch, var(--primary) 14%, var(--background) 86%);
+  --surface-floating: var(--popover);
   --sidebar-surface-raised: color-mix(in oklch, var(--sidebar-accent) 78%, var(--sidebar-primary-foreground) 22%);
   --sidebar-foreground-muted: color-mix(in oklch, var(--sidebar-foreground) 84%, var(--sidebar-primary-foreground) 16%);
   --sidebar-foreground-subtle: color-mix(in oklch, var(--sidebar-foreground) 80%, var(--sidebar-primary-foreground) 20%);
@@ -148,6 +406,14 @@
 
   --surface-elevated: color-mix(in oklch, var(--background) 88%, var(--foreground) 12%);
   --contrast-foreground: var(--foreground);
+  --border-strong: color-mix(in oklch, var(--border) 68%, var(--foreground) 32%);
+  --surface-raised: color-mix(in oklch, var(--background) 88%, var(--foreground) 12%);
+  --surface-raised-border: color-mix(in oklch, var(--border) 82%, var(--foreground) 18%);
+  --surface-sunken: color-mix(in oklch, var(--background) 72%, var(--foreground) 28%);
+  --surface-tinted: color-mix(in oklch, var(--primary) 12%, var(--background) 88%);
+  --surface-tinted-border: color-mix(in oklch, var(--primary) 34%, var(--border) 66%);
+  --surface-hover: color-mix(in oklch, var(--foreground) 8%, var(--background) 92%);
+  --surface-selected: color-mix(in oklch, var(--primary) 20%, var(--background) 80%);
   --shadow-card: 0 1px 2px 0 color-mix(in oklch, var(--sidebar) 18%, transparent), 0 1px 3px 0 color-mix(in oklch, var(--sidebar) 12%, transparent);
   --shadow-card-hover: 0 4px 12px -2px color-mix(in oklch, var(--sidebar) 28%, transparent), 0 2px 4px -1px color-mix(in oklch, var(--sidebar) 18%, transparent);
   --shadow-card-focus: 0 0 0 2px color-mix(in oklch, var(--primary) 36%, transparent);
@@ -155,4 +421,124 @@
   --shadow-soft-hover: 0 3px 8px color-mix(in oklch, var(--sidebar) 28%, transparent);
   --shadow-popover: 0 22px 48px -20px color-mix(in oklch, var(--sidebar) 44%, transparent), 0 10px 20px -12px color-mix(in oklch, var(--sidebar) 22%, transparent);
   --shadow-dialog: 0 32px 84px -32px color-mix(in oklch, var(--sidebar) 52%, transparent), 0 14px 28px -16px color-mix(in oklch, var(--sidebar) 28%, transparent);
+}
+
+/*
+ * App-shell semantic recipes.
+ *
+ * Use these as migration targets for local badge/surface/text soft classes.
+ * Set data-status to info, success, warning, attention, danger, draft,
+ * pending, active, open, claimed, confirmed, completed, cancelled, or expired.
+ *
+ * Category roles should stay non-status: document types, tools, calendar event
+ * types, module identity, and filter scent map to category-* tokens. Actions
+ * and readiness states map to status tokens: approve/complete/ready/optional
+ * use success, request-change/required-missing/stale/pending use warning or
+ * attention, and reject/blocking/cancelled/expired use danger. Utilization and
+ * deadline meters should use status colors plus the meter recipe below. Charts
+ * remain separate and should not provide workflow status colors. Operational
+ * dashboards should use solid surfaces, semantic rails/borders, stable shadows,
+ * restrained hover states, and no broad decorative gradients.
+ */
+.status-badge,
+.status-surface,
+.status-text,
+.status-meter {
+  --status-recipe-bg: var(--status-info-subtle);
+  --status-recipe-bg-strong: var(--status-info-muted);
+  --status-recipe-border: var(--status-info-border);
+  --status-recipe-fg: var(--status-info-foreground);
+  --status-recipe-fill: var(--status-info);
+}
+
+[data-status="success"],
+[data-status="confirmed"],
+[data-status="completed"],
+[data-status="ready"],
+[data-status="complete"],
+[data-status="optional"],
+[data-status="approve"] {
+  --status-recipe-bg: var(--status-success-subtle);
+  --status-recipe-bg-strong: var(--status-success-muted);
+  --status-recipe-border: var(--status-success-border);
+  --status-recipe-fg: var(--status-success-foreground);
+  --status-recipe-fill: var(--status-success);
+}
+
+[data-status="warning"],
+[data-status="pending"],
+[data-status="required-missing"],
+[data-status="request-change"],
+[data-status="stale"] {
+  --status-recipe-bg: var(--status-warning-subtle);
+  --status-recipe-bg-strong: var(--status-warning-muted);
+  --status-recipe-border: var(--status-warning-border);
+  --status-recipe-fg: var(--status-warning-foreground);
+  --status-recipe-fill: var(--status-warning);
+}
+
+[data-status="attention"],
+[data-status="claimed"],
+[data-status="optional-missing"] {
+  --status-recipe-bg: var(--status-attention-subtle);
+  --status-recipe-bg-strong: var(--status-attention-muted);
+  --status-recipe-border: var(--status-attention-border);
+  --status-recipe-fg: var(--status-attention-foreground);
+  --status-recipe-fill: var(--status-attention);
+}
+
+[data-status="danger"],
+[data-status="cancelled"],
+[data-status="expired"],
+[data-status="blocking"],
+[data-status="reject"] {
+  --status-recipe-bg: var(--status-danger-subtle);
+  --status-recipe-bg-strong: var(--status-danger-muted);
+  --status-recipe-border: var(--status-danger-border);
+  --status-recipe-fg: var(--status-danger-foreground);
+  --status-recipe-fill: var(--status-danger);
+}
+
+[data-status="draft"] {
+  --status-recipe-bg: var(--status-draft-subtle);
+  --status-recipe-bg-strong: var(--status-draft-muted);
+  --status-recipe-border: var(--status-draft-border);
+  --status-recipe-fg: var(--status-draft-foreground);
+  --status-recipe-fill: var(--status-draft);
+}
+
+.status-badge {
+  display: inline-flex;
+  min-height: 1.5rem;
+  align-items: center;
+  gap: 0.375rem;
+  border: 1px solid var(--status-recipe-border);
+  border-radius: 999px;
+  background: var(--status-recipe-bg);
+  color: var(--status-recipe-fg);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.25rem 0.625rem;
+}
+
+.status-surface {
+  border: 1px solid var(--status-recipe-border);
+  background: var(--status-recipe-bg);
+  color: var(--foreground);
+}
+
+.status-text {
+  color: var(--status-recipe-fg);
+}
+
+.status-meter {
+  background: var(--muted);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.status-meter > * {
+  background: var(--status-recipe-fill);
+  border-radius: inherit;
 }
