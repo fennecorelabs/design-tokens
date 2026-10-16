@@ -1,0 +1,14 @@
+/* Thin adapter for the existing marketing foreground-accent contract.
+ * Import after marketing tokens; alternative palette choices keep their rules. */
+[data-product="lenzaba"] [data-theme="cold-purple"],
+[data-product="lenzaba"].dark [data-theme="cold-purple"] {
+  --marketing-brand-text: var(--primary);
+  --accent: var(--lenzaba-accent);
+  --accent-hover: var(--lenzaba-accent);
+  --accent-subtle: var(--lenzaba-accent-surface);
+  --accent-muted: var(--lenzaba-accent-surface);
+  --cta-bg: var(--primary);
+  --cta-hover: var(--primary);
+  --hero-bg: var(--cloud);
+  --hero-text: var(--ink);
+}

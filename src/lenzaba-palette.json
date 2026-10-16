@@ -1,0 +1,124 @@
+{
+  "selection": "03",
+  "sourceBrandPurple": "#9B6DD7",
+  "scales": {
+    "purple": {
+      "50": "#FAF6FE",
+      "100": "#F0E6FA",
+      "200": "#E2CFF3",
+      "300": "#CBAAE8",
+      "400": "#B28BDD",
+      "500": "#9B6DD7",
+      "600": "#8253BC",
+      "700": "#684096",
+      "800": "#503073",
+      "900": "#342048",
+      "950": "#241431"
+    },
+    "neutral": {
+      "50": "#FAF9FC",
+      "100": "#F3F1F6",
+      "200": "#E4DFEB",
+      "300": "#CBC3D7",
+      "400": "#9B90AA",
+      "500": "#736780",
+      "600": "#5E526B",
+      "700": "#4A3E57",
+      "800": "#332A3D",
+      "900": "#231B2D",
+      "950": "#16111E"
+    },
+    "teal": {
+      "50": "#EDF9F7",
+      "100": "#D3F0EB",
+      "200": "#A9DFD5",
+      "300": "#76C6BA",
+      "400": "#45A89C",
+      "500": "#248F83",
+      "600": "#15766E",
+      "700": "#115E59",
+      "800": "#114B48",
+      "900": "#113C3A",
+      "950": "#092B29"
+    },
+    "amber": {
+      "50": "#FFF8EB",
+      "100": "#FCEBC7",
+      "200": "#F8D58F",
+      "300": "#EFC063",
+      "400": "#E7AE46",
+      "500": "#E2A135",
+      "600": "#9C610E",
+      "700": "#85520F",
+      "800": "#6C4212",
+      "900": "#593715",
+      "950": "#331E08"
+    }
+  },
+  "themes": {
+    "light": {
+      "background": "#F7F3FB",
+      "surface": "#FFFFFF",
+      "raised": "#F0E8F8",
+      "text": "#342048",
+      "muted": "#685873",
+      "border": "#C7B7D7",
+      "action": "#684096",
+      "onAction": "#FFFFFF",
+      "focus": "#684096",
+      "success": "#21654C",
+      "successSurface": "#E9F5ED",
+      "warning": "#85520F",
+      "warningSurface": "#FFF2D6",
+      "error": "#AC3349",
+      "errorSurface": "#FDEDF0",
+      "info": "#315B9A",
+      "infoSurface": "#EDF3FD",
+      "secondary": "#15766E",
+      "onSecondary": "#FFFFFF",
+      "accent": "#85520F",
+      "accentSurface": "#FCEBC7"
+    },
+    "dark": {
+      "background": "#171120",
+      "surface": "#241B30",
+      "raised": "#30243D",
+      "text": "#F6EFFB",
+      "muted": "#C4B5D1",
+      "border": "#685278",
+      "action": "#C5A1ED",
+      "onAction": "#241431",
+      "focus": "#D5B7F5",
+      "success": "#8DD5AF",
+      "successSurface": "#173B2C",
+      "warning": "#F5CC7B",
+      "warningSurface": "#443219",
+      "error": "#FFADB8",
+      "errorSurface": "#48212C",
+      "info": "#ABCDF9",
+      "infoSurface": "#20344D",
+      "secondary": "#76C6BA",
+      "onSecondary": "#092B29",
+      "accent": "#F8D58F",
+      "accentSurface": "#593715"
+    }
+  },
+  "chartPalettes": {
+    "light": {
+      "purple": "#684096",
+      "teal": "#15766E",
+      "amber": "#9C610E",
+      "blue": "#315B9A",
+      "rose": "#AC426B",
+      "olive": "#63702D"
+    },
+    "dark": {
+      "purple": "#C5A1ED",
+      "teal": "#76C6BA",
+      "amber": "#EFC063",
+      "blue": "#ABCDF9",
+      "rose": "#F1A7C3",
+      "olive": "#C5D48A"
+    }
+  }
+}
