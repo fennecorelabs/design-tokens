@@ -1,0 +1,11 @@
+{
+  "version": "0.5.0",
+  "dist": {
+    "integrity": "sha512-6dAvcqJuJwdYAnO8yf/9uL5grJIshVbI/uQOFSIOqMP2chW4DwN802d5+WNvSyw8707sbmisTZSsuJXoyWRqDg==",
+    "shasum": "ff3318f23577143a62affbb0a09b6914000a5ca3",
+    "tarball": "https://npm.pkg.github.com/download/@fennecorelabs/design-tokens/0.5.0/ff3318f23577143a62affbb0a09b6914000a5ca3"
+  },
+  "sourceCommit": "cf33b0272d30be73f64082e5233424815d2c380c",
+  "publicationMethod": "npm publish --ignore-scripts with authorized Azure credential held in memory only",
+  "precedingWorkflowFailure": "https://github.com/fennecorelabs/design-tokens/actions/runs/38945649250"
+}

@@ -6,9 +6,9 @@ Import `@fennecorelabs/design-tokens/css/lenzaba` after `css/app-shell`, then se
 
 ## Source and validation
 
-The package implementation was independently reviewed across Standards and Spec. The subsequent consumer-only delta review closed three P2 findings: Sessions final CTA foreground, Scheduling secondary outline contrast, and preservation of alternative Sessions surfaces. Package executable content is unchanged from that review. Historical checks are in `docs/theme-03-evidence/`; fresh release checks and the committed source will be recorded during publication.
+The package implementation was independently reviewed across Standards and Spec. The subsequent consumer-only delta review closed three P2 findings: Sessions final CTA foreground, Scheduling secondary outline contrast, and preservation of alternative Sessions surfaces. Package executable content is unchanged from that review. Historical checks are in `docs/theme-03-evidence/`; fresh release checks passed: generator freshness, five tests, standalone typecheck, build and pack exports. Reviewed executable content is bound to publication source `cf33b0272d30be73f64082e5233424815d2c380c`.
 
-Publication uses the repository's existing Publish Package workflow on the exact feature-branch commit. Registry metadata and packed artifact identity must be verified before consumers regenerate lockfiles. A git merge does not establish package availability.
+The existing Publish Package workflow passed clean install, typecheck and build on the exact feature-branch commit, then failed publication because its stored token could not authenticate. The owner authorized locating the dedicated publishing credential in Azure Key Vault. Publication then succeeded using `npm publish --ignore-scripts`, with that credential held only in the process environment. Registry SHA-1 and SHA-512 match the reviewed local package exactly. See `2026-10-16-design-tokens-0.5.0.json` for authoritative metadata. The failed workflow secret was not modified.
 
 ## Consumer adoption and rollback
 
@@ -20,9 +20,9 @@ Rollback an affected application by reverting its palette imports, product opt-i
 
 | Area | Evidence | Status |
 | --- | --- | --- |
-| PR | Package release PR will contain source and validation evidence | Pending creation |
+| PR | https://github.com/fennecorelabs/design-tokens/pull/2 | Open |
 | Changelog | `CHANGELOG.md`, 0.5.0 | Prepared |
 | Usage/runbook | Import, scope and rollback instructions above | Prepared |
-| Release record | This record; registry metadata will follow publication | Publication pending |
+| Release record | This record and registry metadata JSON | Published and verified |
 
 No application deployment is included in this package release.
