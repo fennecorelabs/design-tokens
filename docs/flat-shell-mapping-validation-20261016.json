@@ -1,0 +1,90 @@
+{
+  "verifiedAt": "2026-10-16T19:50:18.879694+00:00",
+  "scope": "Local mapping-only correction; no publication or consumer dependency changes",
+  "paletteUnchanged": true,
+  "sha256": {
+    "scripts/generate-lenzaba.py": "4d3b36e0197b3ec55899d1dcb3b6aa5bd0ed4aef155820129430de61c99221b2",
+    "css/lenzaba.css": "275a9da9313e9e735fed1cf009f69cda1e4ddf8d159ad10da1184431e491a894",
+    "src/lenzaba-palette.json": "c78da3e7d1eefe3226b51690af8eb45e91c9cad16f333da40707ee883d92fa2d",
+    "tests/lenzaba.test.mjs": "8bc203291e49b4115b36b4eea7a7de4271226b25397a8fbaf0531629dcc6d31a"
+  },
+  "packageValidation": {
+    "testsPassed": 7,
+    "typecheck": "passed",
+    "build": "passed"
+  },
+  "browser": [
+    {
+      "page": "landing",
+      "mode": "light",
+      "axeVersion": "4.12.1",
+      "counts": {
+        "inapplicable": 37,
+        "incomplete": 2,
+        "passes": 23,
+        "violations": 0
+      },
+      "violationIds": [],
+      "incompleteIds": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ]
+    },
+    {
+      "page": "landing",
+      "mode": "dark",
+      "axeVersion": "4.12.1",
+      "counts": {
+        "inapplicable": 37,
+        "incomplete": 1,
+        "passes": 23,
+        "violations": 0
+      },
+      "violationIds": [],
+      "incompleteIds": [
+        "aria-valid-attr-value"
+      ]
+    },
+    {
+      "page": "target-error",
+      "mode": "light",
+      "axeVersion": "4.12.1",
+      "counts": {
+        "inapplicable": 36,
+        "incomplete": 3,
+        "passes": 24,
+        "violations": 0
+      },
+      "violationIds": [],
+      "incompleteIds": [
+        "aria-prohibited-attr",
+        "aria-valid-attr-value",
+        "color-contrast"
+      ]
+    },
+    {
+      "page": "target-error",
+      "mode": "dark",
+      "axeVersion": "4.12.1",
+      "counts": {
+        "inapplicable": 36,
+        "incomplete": 2,
+        "passes": 24,
+        "violations": 0
+      },
+      "violationIds": [],
+      "incompleteIds": [
+        "aria-prohibited-attr",
+        "aria-valid-attr-value"
+      ]
+    }
+  ],
+  "limitations": [
+    "Synthetic landing uses actual page component with synthetic query/active-client hooks, 641px content width and development badges hidden.",
+    "Generated CSS is injected in browser memory; installed consumer packages remain 0.5.0.",
+    "Full consumer builds and CI acceptance were not rerun; independent review remains pending.",
+    "Deployed exact SHA remains unverified.",
+    "Preview CSS disappears on reload. Original inspection tabs remain open; live inspection tab was observed showing sign-in later in this session.",
+    "A second screenshot attempt timed out; the first saved synthetic landing image was visually inspected."
+  ]
+}

@@ -42,3 +42,31 @@ test("product opt-in owns declarations; shared defaults are not imported or repl
   assert.ok(css.includes('--input: var(--control-border)'));
   assert.ok(css.includes('--chart-6: oklch('));
 });
+
+// Product accents must not replace the app shell's quiet panel treatment.
+const declarations = (source, selector) => {
+  const escaped = selector.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const block = source.match(new RegExp(`^${escaped} \\{([\\s\\S]*?)^\\}`, "m"));
+  assert.ok(block, `Missing ${selector}`);
+  return Object.fromEntries([...block[1].matchAll(/--([\w-]+):\s*([^;]+);/g)].map(match => [match[1], match[2]]));
+};
+for (const mode of ["light", "dark"]) {
+  test(`${mode}: ordinary surfaces inherit the flat shell contract, accents remain selected`, () => {
+    const shell = declarations(read("../css/app-shell.css"), ":root");
+    if (mode === "dark") Object.assign(shell, declarations(read("../css/app-shell.css"), ".dark"));
+    const theme = declarations(read("../css/themes.css"), ":root");
+    const scope = mode === "dark" ? '[data-product="lenzaba"].dark [data-theme="cold-purple"]' : '[data-product="lenzaba"] [data-theme="cold-purple"]';
+    const product = declarations(css, scope);
+    for (const role of ["background", "card", "popover", "muted", "border", "sidebar", "sidebar-foreground", "sidebar-accent-foreground", "sidebar-border", "surface-raised", "surface-raised-border", "surface-tinted", "surface-tinted-border", "surface-selected"]) {
+      const expected = shell[role].replaceAll("var(--paper)", theme.paper).replaceAll("var(--cloud)", theme.cloud);
+      assert.equal(product[role], expected, role);
+    }
+    assert.equal(product["category-berry-foreground"], "color-mix(in oklch, var(--chart-rose) 72%, var(--foreground) 28%)");
+    assert.equal(product["sidebar-muted"], "var(--sidebar-foreground-muted)");
+    assert.equal(product.primary, "var(--lenzaba-action)");
+    assert.equal(product.secondary, "var(--lenzaba-secondary)");
+    assert.equal(product["accent-foreground"], "var(--lenzaba-accent)");
+    assert.equal(product["control-border"], "var(--lenzaba-muted)");
+    assert.notEqual(product.border, product["control-border"]);
+  });
+}
