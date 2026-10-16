@@ -1,4 +1,12 @@
-# Local flat-shell mapping correction
+# Flat-shell mapping correction
+
+## Current delivery status
+
+Version 0.5.1 is published and independently reviewed. See the [0.5.1 release record](releases/2026-10-16-design-tokens-0.5.1.md) for publication source and rollout gates. Consumer staging acceptance remains pending.
+
+## Historical preparation snapshot
+
+The following records the earlier local-only checkpoint. Its publication, review, consumer-install and browser-tab statements describe that checkpoint, not current delivery state. Original browser tabs were subsequently observed unavailable; no authentication state was silently recreated.
 
 The direction 03 palette remains unchanged in `src/lenzaba-palette.json`. This local correction changes semantic mapping only; it has not been published or deployed. Published version 0.5.0 remains immutable.
 

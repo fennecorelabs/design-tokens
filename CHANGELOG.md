@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [0.5.1] - 2026-10-16
+
 - Preserve the existing flat app-shell surfaces and decorative dividers in the LenzABA opt-in mapping; retain direction 03 swatches, purposeful accents, readable category text, and separate control/focus boundaries.
 
 ## [0.5.0] - 2026-10-16
