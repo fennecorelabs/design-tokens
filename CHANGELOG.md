@@ -2,6 +2,15 @@
 
 ## [Unreleased]
 
+## [0.5.1] - 2026-10-16
+
+- Preserve the existing flat app-shell surfaces and decorative dividers in the LenzABA opt-in mapping; retain direction 03 swatches, purposeful accents, readable category text, and separate control/focus boundaries.
+
+## [0.5.0] - 2026-10-16
+
+- Add opt-in `css/lenzaba` and `css/lenzaba-marketing` exports for owner-selected direction 03. Existing app-shell and palette defaults remain unchanged.
+- Preserve complete OKLCH color values, paired action/status foregrounds, six chart roles, and a separate visible control boundary.
+
 ## [0.4.0] - 2026-06-04
 ### Added
 - Cold-purple app-shell status tokens for info, success, warning, attention, and danger states, with subtle, muted, border, and foreground variants exposed through `css/app-shell.css` and the Tailwind preset.
