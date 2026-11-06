@@ -117,6 +117,10 @@ marketing='''/* Thin adapter for the existing marketing foreground-accent contra
 }
 '''
 outputs['lenzaba-marketing.css'] = marketing
+sys.dont_write_bytecode = True
+from lenzaba_ui import generate_ui
+outputs['lenzaba-ui.css'] = generate_ui(pkg, snapshot, oklch)
+
 for name, content in outputs.items():
     path = pkg / 'css' / name
     if '--check' in sys.argv:

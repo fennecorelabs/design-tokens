@@ -1,0 +1,51 @@
+{
+  "spacing": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48
+  ],
+  "radius": {
+    "control": 8,
+    "card": 12,
+    "dialog": 16
+  },
+  "type": {
+    "title": 32,
+    "titleMobile": 28,
+    "section": 24,
+    "body": 16,
+    "dense": 14,
+    "metadata": 12
+  },
+  "density": {
+    "comfortable": 44,
+    "compact": 32,
+    "touch": 44,
+    "readable": 44
+  },
+  "icons": {
+    "inline": 16,
+    "control": 20,
+    "navigation": 24,
+    "stroke": 2
+  },
+  "motion": {
+    "feedbackMs": 120,
+    "decorative": false,
+    "reducedMotionMs": 0
+  },
+  "themes": {
+    "light": {
+      "controlBorder": "#85718F",
+      "onError": "#FFFFFF"
+    },
+    "dark": {
+      "controlBorder": "#A48BB8",
+      "onError": "#48212C"
+    }
+  }
+}
