@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-11-06
+
+- Add the opt-in `css/lenzaba-ui` entrypoint with shared light/dark semantic tokens, typography, density, controls, and accessibility-aware presentation for the accepted LenzABA UI reference. Existing theme defaults remain unchanged.
+
 ## [0.6.0] - 2026-11-06
 
 - Distribute the accepted H1 owl and Soft focus R1 artwork with provenance and public-asset adoption guidance.
