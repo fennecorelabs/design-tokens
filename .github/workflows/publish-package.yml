@@ -14,13 +14,13 @@ jobs:
       packages: write
 
     env:
-      NODE_AUTH_TOKEN: ${{ secrets.PUB_PACKAGE_SKILL_LENZABA }}
+      NODE_AUTH_TOKEN: ${{ github.token }}
 
     steps:
       - name: Check publish token
         run: |
           if [ -z "${NODE_AUTH_TOKEN}" ]; then
-            echo "PUB_PACKAGE_SKILL_LENZABA is not configured"
+            echo "GitHub Actions package token is unavailable"
             exit 1
           fi
 
