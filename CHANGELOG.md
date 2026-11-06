@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [0.6.0] - 2026-11-06
+
+- Distribute the accepted H1 owl and Soft focus R1 artwork with provenance and public-asset adoption guidance.
+- Add opt-in `css/lenzaba-brand` with self-hosted, OFL-licensed Bricolage Grotesque and Plus Jakarta Sans fonts and scoped family variables. Preserve existing palette mappings, layout and light/dark ownership.
+
 ## [0.5.1] - 2026-10-16
 
 - Preserve the existing flat app-shell surfaces and decorative dividers in the LenzABA opt-in mapping; retain direction 03 swatches, purposeful accents, readable category text, and separate control/focus boundaries.

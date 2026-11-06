@@ -1,6 +1,6 @@
 {
   "name": "@fennecorelabs/design-tokens",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "Shared design tokens, OKLCH theme system, and Design D (Organic Warm) aesthetic for the Adaptive AI ecosystem",
   "license": "MIT",
   "type": "module",
@@ -23,11 +23,15 @@
       "import": "./dist/components/ThemePicker.js"
     },
     "./css/lenzaba": "./css/lenzaba.css",
-    "./css/lenzaba-marketing": "./css/lenzaba-marketing.css"
+    "./css/lenzaba-marketing": "./css/lenzaba-marketing.css",
+    "./brand/lenzaba/soft-focus-r1/*": "./brand/lenzaba/soft-focus-r1/*",
+    "./css/lenzaba-brand": "./css/lenzaba-brand.css",
+    "./brand/lenzaba/fonts/room-to-grow-v1/*": "./brand/lenzaba/fonts/room-to-grow-v1/*"
   },
   "files": [
     "css/",
-    "dist/"
+    "dist/",
+    "brand/"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",

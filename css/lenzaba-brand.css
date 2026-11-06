@@ -1,0 +1,21 @@
+/* Opt-in self-hosted fonts. Applications own font bindings, sizes and themes. */
+@font-face {
+  font-family: 'LenzABA Bricolage';
+  src: url('../brand/lenzaba/fonts/room-to-grow-v1/BricolageGrotesque.ttf') format('truetype');
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LenzABA Jakarta';
+  src: url('../brand/lenzaba/fonts/room-to-grow-v1/PlusJakartaSans.ttf') format('truetype');
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+[data-product="lenzaba"] {
+  --font-lenzaba-display: 'LenzABA Bricolage', system-ui, sans-serif;
+  --font-lenzaba-body: 'LenzABA Jakarta', system-ui, sans-serif;
+}
