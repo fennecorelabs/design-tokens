@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "product": "lenzaba",
+  "name": "H1 owl and Soft focus R1",
+  "selectionIds": [
+    "H1",
+    "W1",
+    "R1"
+  ],
+  "acceptedOn": "2026-11-05",
+  "palette": "03 Purple + Teal + Amber",
+  "sourceWorkspace": "fennecore-media-workspace",
+  "provenance": [
+    {
+      "path": "products/lenzaba/owl-refresh-v1/selection.json",
+      "sha256": "39d68e927478cf410586afb53a78ba9a1aeed4fe3bad94c3a2941f2e685ceedf"
+    },
+    {
+      "path": "products/lenzaba/wordmark-exploration-v1/refinements/r1/selection.json",
+      "sha256": "0ae511c4a2540e2319e97a435195f04f63373c003e4b251bc91e83e69f36e17c"
+    },
+    {
+      "path": "products/lenzaba/wordmark-exploration-v1/refinements/r1/manifest.json",
+      "sha256": "3664c673a07ee41e76a24f77c79341e54052f043e888151c167b1baa23bc07ca"
+    }
+  ],
+  "assets": [
+    {
+      "file": "R1-primary-light.svg",
+      "format": "svg",
+      "width": 1600,
+      "height": 500,
+      "transparent": true,
+      "background": "light",
+      "variant": "primary",
+      "sha256": "86ec80bd120e4e5fde91909170ab6c7603e3f27ce87a053bd5adbf37c6fd3e2f",
+      "source": "products/lenzaba/wordmark-exploration-v1/refinements/r1/assets/R1-primary-light.svg"
+    },
+    {
+      "file": "R1-primary-light.png",
+      "format": "png",
+      "width": 1600,
+      "height": 500,
+      "transparent": true,
+      "background": "light",
+      "variant": "primary",
+      "sha256": "626df7427de8f60e89ba37203b5ef59f6901d510afd821c71f1811f11b1b1e7d",
+      "source": "products/lenzaba/wordmark-exploration-v1/refinements/r1/assets/R1-primary-light.png"
+    },
+    {
+      "file": "R1-compact-light.svg",
+      "format": "svg",
+      "width": 900,
+      "height": 220,
+      "transparent": true,
+      "background": "light",
+      "variant": "compact",
+      "sha256": "727c09371ca6b5f3dc1dae17da7f4f069a3bf2ad76a340f2bac11061787a932e",
+      "source": "products/lenzaba/wordmark-exploration-v1/refinements/r1/assets/R1-compact-light.svg"
+    },
+    {
+      "file": "R1-compact-light.png",
+      "format": "png",
+      "width": 900,
+      "height": 220,
+      "transparent": true,
+      "background": "light",
+      "variant": "compact",
+      "sha256": "a4e20a79e64035c90276c61ac03bd6168116b8979a9e252cf2a881da1d6eafbc",
+      "source": "products/lenzaba/wordmark-exploration-v1/refinements/r1/assets/R1-compact-light.png"
+    },
+    {
+      "file": "R1-wordmark-light.svg",
+      "format": "svg",
+      "width": 1200,
+      "height": 250,
+      "transparent": true,
+      "background": "light",
+      "variant": "wordmark",
+      "sha256": "f8cdaea0ca9e197e6c7d31ffb12beb3b2114634d18333f8810c1d614dad037a0",
+      "source": "products/lenzaba/wordmark-exploration-v1/refinements/r1/assets/R1-wordmark-light.svg"
+    },
+    {
+      "file": "R1-wordmark-light.png",
+      "format": "png",
+      "width": 1200,
+      "height": 250,
+      "transparent": true,
+      "background": "light",
+      "variant": "wordmark",
+      "sha256": "0d008733df98492cfc9f4ed7f9dfc6df95cb25ccdc9a94a8a1d7a241c3c43e8f",
+      "source": "products/lenzaba/wordmark-exploration-v1/refinements/r1/assets/R1-wordmark-light.png"
+    },
+    {
+      "file": "R1-primary-dark.svg",
+      "format": "svg",
+      "width": 1600,
+      "height": 500,
+      "transparent": true,
+      "background": "dark",
+      "variant": "primary",
+      "sha256": "ea0d184ded640ad2cb7bd0bdbd05a4ec30783685b6010ad2991e24721c315bb5",
+      "source": "products/lenzaba/wordmark-exploration-v1/refinements/r1/assets/R1-primary-dark.svg"
+    },
+    {
+      "file": "R1-primary-dark.png",
+      "format": "png",
+      "width": 1600,
+      "height": 500,
+      "transparent": true,
+      "background": "dark",
+      "variant": "primary",
+      "sha256": "107c669e94b0b4689e52051812b3ab5b135827d8f01a82bf90ee1b4677747568",
+      "source": "products/lenzaba/wordmark-exploration-v1/refinements/r1/assets/R1-primary-dark.png"
+    },
+    {
+      "file": "R1-compact-dark.svg",
+      "format": "svg",
+      "width": 900,
+      "height": 220,
+      "transparent": true,
+      "background": "dark",
+      "variant": "compact",
+      "sha256": "5e5a77a9ccaf840c4a344c66c6feb6514d2321fc64c4a4e8b694a4f8e93230ca",
+      "source": "products/lenzaba/wordmark-exploration-v1/refinements/r1/assets/R1-compact-dark.svg"
+    },
+    {
+      "file": "R1-compact-dark.png",
+      "format": "png",
+      "width": 900,
+      "height": 220,
+      "transparent": true,
+      "background": "dark",
+      "variant": "compact",
+      "sha256": "8de69bb743a327133af0308e781ea5a341464a31e7855022b8a49e5a36590d98",
+      "source": "products/lenzaba/wordmark-exploration-v1/refinements/r1/assets/R1-compact-dark.png"
+    },
+    {
+      "file": "R1-wordmark-dark.svg",
+      "format": "svg",
+      "width": 1200,
+      "height": 250,
+      "transparent": true,
+      "background": "dark",
+      "variant": "wordmark",
+      "sha256": "ae54ce0392abd61c42b75046c9c82a9d82379b93797329b4cca09feb9847275b",
+      "source": "products/lenzaba/wordmark-exploration-v1/refinements/r1/assets/R1-wordmark-dark.svg"
+    },
+    {
+      "file": "R1-wordmark-dark.png",
+      "format": "png",
+      "width": 1200,
+      "height": 250,
+      "transparent": true,
+      "background": "dark",
+      "variant": "wordmark",
+      "sha256": "2658c2e0fc7a88fb71e9ef7e68d39fdb622bf2ad0dba49fe0be35c7ec3696075",
+      "source": "products/lenzaba/wordmark-exploration-v1/refinements/r1/assets/R1-wordmark-dark.png"
+    },
+    {
+      "file": "R1-wordmark-mono.svg",
+      "format": "svg",
+      "width": 1200,
+      "height": 250,
+      "transparent": true,
+      "background": "light",
+      "variant": "wordmark",
+      "sha256": "82e9c0d30917d1d232fad08897a583da5807632ee433d6c384726cccde714b13",
+      "source": "products/lenzaba/wordmark-exploration-v1/refinements/r1/assets/R1-wordmark-mono.svg"
+    },
+    {
+      "file": "R1-wordmark-mono.png",
+      "format": "png",
+      "width": 1200,
+      "height": 250,
+      "transparent": true,
+      "background": "light",
+      "variant": "wordmark",
+      "sha256": "22cf1e2e724d66be02375debfb2438c076878eb5c17db1714a6464bb9c9da9b2",
+      "source": "products/lenzaba/wordmark-exploration-v1/refinements/r1/assets/R1-wordmark-mono.png"
+    },
+    {
+      "file": "H1-refined.png",
+      "format": "png",
+      "width": 1199,
+      "height": 1312,
+      "transparent": true,
+      "background": "light or dark; verify contrast in the intended placement",
+      "variant": "owl",
+      "sha256": "56d56d7c3501466cadbad527336917b3771db109fe6e49c765e6b0600af19127",
+      "source": "products/lenzaba/owl-refresh-v1/assets/H1-refined.png"
+    }
+  ]
+}
